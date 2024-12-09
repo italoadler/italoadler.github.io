@@ -36,23 +36,22 @@ function Scene() {
         rayleigh={3}
         turbidity={10}
       />
-      <Stars
-        radius={100}
+      {/* <Stars
+        radius={Math.random()* 30}
         depth={50}
         count={5000}
-        factor={4}
-        saturation={0}
-        fade
+        factor={1}
+        saturation={1}
         speed={1}
-      />
-      <Cloud
+      /> */}
+      {/* <Cloud
         ref={cloudRef}
         position={[10, 15, -25]}
         opacity={1.5}
         speed={0.4}
         width={10}
         depth={0.5}
-        segments={200}
+        segments={2}
         color={new THREE.Color("#ffffff")}
       />
       <Cloud
@@ -62,15 +61,15 @@ function Scene() {
         speed={0.4}
         width={1000}
         depth={10.5}
-        segments={20}
+        segments={2}
         color={new THREE.Color("#ffffff")}
-      />
-      <hemisphereLight intensity={0.5} groundColor={new THREE.Color("#ffffff")} />
+      /> */}
+      {/* <hemisphereLight intensity={0.5} groundColor={new THREE.Color("#ffffff")} />
       <directionalLight
         position={[0, 15, 15]}
         intensity={1}
         color={new THREE.Color("#ffffff")}
-      />
+      /> */}
       <OrbitControls
         enablePan={false}
         enableZoom={false}

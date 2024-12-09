@@ -1,3 +1,5 @@
+"use client";
+
 import { EnhancedSky } from "@/components/enhanced-sky";
 import Header from "../components/header";
 import MainContent from "@/components/main";
@@ -16,15 +18,13 @@ const rock3D = Rock_3D({
 
 export default function Home() {
   return (
-    <div className="relative w-full h-screen">
+    <div className={`relative w-full h-screen ${notoSansJP.className}`}>
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
         <link href="https://fonts.googleapis.com/css2?family=Rock+3D&display=swap" rel="stylesheet" />
       </Head>
-      <EnhancedSky  />
-      <Header />
-    
+      <EnhancedSky />
     </div>
   );
 }
