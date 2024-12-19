@@ -2,18 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;700&family=Lora:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
-
 :root {
-  --font-0: 'Roboto', sans-serif;
-  --font-1: 'Playfair Display', serif;
-  --font-2: 'Montserrat', sans-serif;
-  --font-3: 'Lora', serif;
-  --font-4: 'Open Sans', sans-serif;
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
 }
 
-.writing-vertical {
-  writing-mode: vertical-rl;
-  text-orientation: upright;
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
 }
 
