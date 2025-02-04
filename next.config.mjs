@@ -8,4 +8,4 @@ const nextConfig = {
   assetPrefix: '/italoadler.github.io/',
 }
 
-module.exports = nextConfig
+export default nextConfig
