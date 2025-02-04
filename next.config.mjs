@@ -1,4 +1,11 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  output: 'export',
+  images: {
+    unoptimized: true,
+  },
+  basePath: '/italoadler.github.io',
+  assetPrefix: '/italoadler.github.io/',
+}
 
-export default nextConfig;
+module.exports = nextConfig

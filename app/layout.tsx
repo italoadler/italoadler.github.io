@@ -1,12 +1,13 @@
-import './globals.css'
-import { Montserrat } from 'next/font/google'
-import Script from 'next/script'
+import "./globals.css"
+import { Inter } from "next/font/google"
+import Script from "next/script"
+import type React from "react" // Import React
 
-const montserrat = Montserrat({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: 'Italo Adler - Generative Artist',
-  description: 'Generative art by Italo Adler',
+  title: "Text Scramble Effect",
+  description: "Cyberpunk-style text scramble effect using GSAP",
 }
 
 export default function RootLayout({
@@ -16,10 +17,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={montserrat.className}>
+      <body className={inter.className}>
         {children}
         <Script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js" />
-        <Script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/TextPlugin.min.js" />
       </body>
     </html>
   )
