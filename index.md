@@ -19,11 +19,11 @@ O objetivo deste repositório é ser um laboratório para testar novas abordagen
 
 ## Projetos e braços do repositório
 
-### 1. Site pessoal
+### Site pessoal
 Este repositório contém o código-fonte do meu site pessoal, onde compartilho informações sobre minha carreira, projetos e interesses.
 
 
-### 3. Experimentos e prototipagem
+### Experimentos e prototipagem
 Aqui é onde experimento novas tecnologias e ideias. Estes projetos podem não estar totalmente finalizados, mas servem como uma base para aprendizado e inovação.
 
 ## Contribuições
