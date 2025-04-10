@@ -1,14 +1,122 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-    <script type="module" crossorigin src="/assets/index-CB89YAdA.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-DzKQdJPT.css">
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Italo Artista</title>
+  <style>
+    @font-face {
+      font-family: 'Geist';
+      font-style: normal;
+      font-weight: 100;
+      src: url('/italoadler.github.io/assets/Geist-Thin-Dp6dXHSd.woff2') format('woff2');
+    }
+
+    @font-face {
+      font-family: 'Geist';
+      font-style: normal;
+      font-weight: 200;
+      src: url('/italoadler.github.io/assets/Geist-ExtraLight-oc4o-2Oc.woff2') format('woff2');
+    }
+
+    @font-face {
+      font-family: 'Geist';
+      font-style: normal;
+      font-weight: 300;
+      src: url('/italoadler.github.io/assets/Geist-Light-DepfNKtl.woff2') format('woff2');
+    }
+
+    @font-face {
+      font-family: 'Geist';
+      font-style: normal;
+      font-weight: 400;
+      src: url('/italoadler.github.io/assets/Geist-Regular-C-tpyHWR.woff2') format('woff2');
+    }
+
+    @font-face {
+      font-family: 'Geist';
+      font-style: normal;
+      font-weight: 500;
+      src: url('/italoadler.github.io/assets/Geist-Medium-VS4OQvcm.woff2') format('woff2');
+    }
+
+    @font-face {
+      font-family: 'Geist';
+      font-style: normal;
+      font-weight: 600;
+      src: url('/italoadler.github.io/assets/Geist-SemiBold-BujflzBj.woff2') format('woff2');
+    }
+
+    @font-face {
+      font-family: 'Geist';
+      font-style: normal;
+      font-weight: 700;
+      src: url('/italoadler.github.io/assets/Geist-Bold-vmq638g1.woff2') format('woff2');
+    }
+
+    @font-face {
+      font-family: 'Geist';
+      font-style: normal;
+      font-weight: 800;
+      src: url('/italoadler.github.io/assets/Geist-ExtraBold-B9C6BT9F.woff2') format('woff2');
+    }
+
+    @font-face {
+      font-family: 'Geist';
+      font-style: normal;
+      font-weight: 900;
+      src: url('/italoadler.github.io/assets/Geist-Black-BE5TvrAl.woff2') format('woff2');
+    }
+
+    body {
+      padding-left: 3.5%;
+      background-color: rgb(253, 206, 75);
+      font-size: 64px;
+      color: rgba(156, 156, 156, 0.856);
+      font-family: 'Geist', 'Space Mono';
+    }
+
+  canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /* Coloca o canvas atrás do conteúdo */
+  }
+  h1 { 
+    font-size: x-large;
+  }
+  p { 
+    font-size: 3.5rem;
+  }
+  footer {
+    font-size: 1.2rem;
+  }
+  </style>
+</head>
+
+<body>
+  <header id="cabeca">
+    <h2>ITALO ADLER</h2>
+   
+  </header>
+  <main>
+    <p>Principal Engineer
+      <br> 
+      <br>Media Artist
+      <br>
+      <br>Teacher
+      <br>
+      <br> at Generativa Lab </h4>
+   </p>
+  </main>
+  <footer>© 2025</footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/addons/p5.sound.min.js"></script>
+  <script src="src/sketch.js"></script>
+</body>
+
 </html>
